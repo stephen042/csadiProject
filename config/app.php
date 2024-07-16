@@ -123,4 +123,8 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'App_mail' => 'support@csadi.org',
+    'App_number' => '+234 806 572 5403',
+    'App_address1' => "Number 3 behind Dan Kura Adamu's Residence, off Zoo Road, Kano , Nigeria.",
+    'App_address2' => "Block A2 Kundila housing estate gandun albasa, Kano, Nigeria.",
 ];
