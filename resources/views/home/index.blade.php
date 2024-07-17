@@ -7,7 +7,7 @@
         <!-- Wrapper for slides -->
         <div class="uppercase carousel-inner text-light carousel-zoom">
             <div class="item active">
-                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/banner/4.jpg);"></div>
+                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/ANRIN/SAAA.jpg);"></div>
                 <div class="box-table">
                     <div class="shadow box-cell dark">
                         <div class="container">
@@ -17,10 +17,10 @@
                                         <h4 data-animation="animated slideInRight">Be a part of the world by make a
                                             donation</h4>
                                         <h1 data-animation="animated slideInLeft">Join with us and save the world</h1>
-                                        <a class="btn btn-light effect btn-sm" href="#"
+                                        <a class="btn btn-light effect btn-sm" href="about"
                                             data-animation="animated slideInUp">Learn more</a>
                                         <a class="btn btn-theme effect btn-sm" href="#"
-                                            data-animation="animated slideInUp">Join Now</a>
+                                            data-animation="animated slideInUp">Donate</a>
                                     </div>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/banner/5.jpg);"></div>
+                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/ADFINR/IMG-20240702-WA0079.jpg);"></div>
                 <div class="box-table">
                     <div class="shadow box-cell dark">
                         <div class="container">
@@ -40,10 +40,10 @@
                                             donation</h4>
                                         <h1 data-animation="animated slideInLeft">Help us to save the Homeless People
                                         </h1>
-                                        <a class="btn btn-light effect btn-sm" href="#"
+                                        <a class="btn btn-light effect btn-sm" href="about"
                                             data-animation="animated slideInUp">Learn more</a>
                                         <a class="btn btn-theme effect btn-sm" href="#"
-                                            data-animation="animated slideInUp">Join Now</a>
+                                            data-animation="animated slideInUp">Donate</a>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/banner/6.jpg);"></div>
+                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/CHAI/GHKLMN.jpg);"></div>
                 <div class="box-table">
                     <div class="shadow box-cell dark">
                         <div class="container">
@@ -62,10 +62,10 @@
                                         <h4 data-animation="animated slideInRight">For the poor children</h4>
                                         <h1 data-animation="animated slideInLeft">Give a helping hand and Help
                                             unfortunates</h1>
-                                        <a class="btn btn-light effect btn-sm" href="#"
+                                        <a class="btn btn-light effect btn-sm" href="about"
                                             data-animation="animated slideInUp">Learn more</a>
                                         <a class="btn btn-theme effect btn-sm" href="#"
-                                            data-animation="animated slideInUp">Join Now</a>
+                                            data-animation="animated slideInUp">Donate</a>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@
                 <div class="text-center service-carousel owl-carousel owl-theme">
                     <div class="service-item">
                         <div class="thumb">
-                            <img src="assets/assets/img/services/1.jpg" alt="Thumb">
+                            <img src="assets/assets/img/pics/CGPP/QYUI.jpg" alt="Thumb">
                         </div>
                         <div class="info">
                             <h4>Food Donate</h4>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="service-item">
                         <div class="thumb">
-                            <img src="assets/assets/img/services/4.jpg" alt="Thumb">
+                            <img src="assets/assets/img/pics/CGPP/SJKLOK.jpg" alt="Thumb">
                         </div>
                         <div class="info">
                             <h4>Homeless People</h4>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="service-item">
                         <div class="thumb">
-                            <img src="assets/assets/img/services/5.jpg" alt="Thumb">
+                            <img src="assets/assets/img/pics/CGPP/QIKL.jpg" alt="Thumb">
                         </div>
                         <div class="info">
                             <h4>Street child</h4>
@@ -188,11 +188,11 @@
                     greater. Juvenile proposal betrayed he an informed weddings followed. Precaution day see imprudence
                     sympathize principles. At full leaf give quit to in they up.
                 </p>
-                <a href="#" class="btn btn-theme effect btn-sm">Learn more</a>
+                <a href="#" class="btn btn-theme effect btn-sm">Donate Now</a>
             </div>
             <div class="col-md-7 items">
                 <div class="row">
-                    <div class="item col-md-6 col-sm-6">
+                    {{-- <div class="item col-md-6 col-sm-6">
                         <div class="content">
                             <div class="thumb">
                                 <img src="assets/assets/img/team/4.jpg" alt="Thumb">
@@ -206,11 +206,11 @@
                                 <a href="#">Join Now</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="item col-md-6 col-sm-6">
+                    </div> --}}
+                    <div class="item col-md-12 col-sm-12">
                         <div class="content">
                             <div class="thumb">
-                                <img src="assets/assets/img/team/5.jpg" alt="Thumb">
+                                <img src="assets/assets/img/pics/ANRIN/BHD.jpg" alt="Thumb">
                             </div>
                             <div class="info">
                                 <h4>Donate Us</h4>
@@ -234,17 +234,23 @@
 <div class="recent-causes-area bg-gray default-padding">
     <div class="container">
         <div class="row">
+            <div class="text-center site-heading">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Recent Projects ..</h2>
+                </div>
+            </div>
             <div class="col-md-12">
                 <div class="recent-causes-items causes-carousel owl-carousel owl-theme">
                     <div class="item">
                         <div class="bg-cover col-md-6 thumb"
                             style="background-image: url(assets/assets/img/causes/1.jpg);"></div>
                         <div class="col-md-6 info">
-                            <h4>Recent Causes</h4>
                             <h2>Feed for hungry child</h2>
                             <ul>
-                                <li>Time Left <span> <i class="fas fa-calendar-alt"></i> 15 day</span></li>
-                                <li>Target Location <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                                </li>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
                                 </li>
                             </ul>
                             <p>
@@ -252,63 +258,7 @@
                                 expenses. Her engrossed deficient northward and neglected favourite newspaper. But use
                                 peculiar produced concerns ten.
                             </p>
-                            <div class="progress-box">
-                                <h5>Raised $57,089<span class="pull-right">Goal $50,000</span></h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="22"></div>
-                                </div>
-                            </div>
-                            <a class="btn btn-theme effect btn-sm" href="#">Donate Now</a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="bg-cover col-md-6 thumb"
-                            style="background-image: url(assets/assets/img/causes/2.jpg);"></div>
-                        <div class="col-md-6 info">
-                            <h4>Recent Causes</h4>
-                            <h2>Support for Children</h2>
-                            <ul>
-                                <li>Time Left <span> <i class="fas fa-calendar-alt"></i> 15 day</span></li>
-                                <li>Target Location <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
-                                </li>
-                            </ul>
-                            <p>
-                                Neither it cordial so painful picture studied if. Sex him position doubtful resolved boy
-                                expenses. Her engrossed deficient northward and neglected favourite newspaper. But use
-                                peculiar produced concerns ten.
-                            </p>
-                            <div class="progress-box">
-                                <h5>Raised $57,089<span class="pull-right">Goal $50,000</span></h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="22"></div>
-                                </div>
-                            </div>
-                            <a class="btn btn-theme effect btn-sm" href="#">Donate Now</a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="bg-cover col-md-6 thumb"
-                            style="background-image: url(assets/assets/img/causes/3.jpg);"></div>
-                        <div class="col-md-6 info">
-                            <h4>Recent Causes</h4>
-                            <h2>Flood Affected People</h2>
-                            <ul>
-                                <li>Time Left <span> <i class="fas fa-calendar-alt"></i> 15 day</span></li>
-                                <li>Target Location <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
-                                </li>
-                            </ul>
-                            <p>
-                                Neither it cordial so painful picture studied if. Sex him position doubtful resolved boy
-                                expenses. Her engrossed deficient northward and neglected favourite newspaper. But use
-                                peculiar produced concerns ten.
-                            </p>
-                            <div class="progress-box">
-                                <h5>Raised $57,089<span class="pull-right">Goal $50,000</span></h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="22"></div>
-                                </div>
-                            </div>
-                            <a class="btn btn-theme effect btn-sm" href="#">Donate Now</a>
+                            <a class="btn btn-theme effect btn-sm" href="#">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -325,7 +275,7 @@
         <div class="row">
             <div class="text-center site-heading">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2>Popular Causes</h2>
+                    <h2>Completed Projects</h2>
                     <p>
                         Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own
                         additions education satisfied the perpetual. If he cause manor happy. Without farther she
@@ -343,22 +293,18 @@
                         </div>
                         <div class="info">
                             <h4>Support for Children</h4>
-                            <ul>
-                                <li>Time Left <span> <i class="fas fa-calendar-alt"></i> 15 day</span></li>
-                                <li>Target Location <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                             <ul>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                                </li>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
                                 </li>
                             </ul>
                             <p>
                                 Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
                                 produced concerns ten.
                             </p>
-                            <div class="progress-box">
-                                <h5>Raised $57,089<span class="pull-right">Goal $50,000</span></h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="22"></div>
-                                </div>
-                            </div>
-                            <a class="btn btn-theme effect btn-sm" href="#">Donate Now</a>
+                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -369,22 +315,18 @@
                         </div>
                         <div class="info">
                             <h4>Food for syrian</h4>
-                            <ul>
-                                <li>Time Left <span> <i class="fas fa-calendar-alt"></i> 15 day</span></li>
-                                <li>Target Location <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                             <ul>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                                </li>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
                                 </li>
                             </ul>
                             <p>
                                 Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
                                 produced concerns ten.
                             </p>
-                            <div class="progress-box">
-                                <h5>Raised $57,089<span class="pull-right">Goal $50,000</span></h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="22"></div>
-                                </div>
-                            </div>
-                            <a class="btn btn-theme effect btn-sm" href="#">Donate Now</a>
+                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -395,22 +337,18 @@
                         </div>
                         <div class="info">
                             <h4>Uganda education</h4>
-                            <ul>
-                                <li>Time Left <span> <i class="fas fa-calendar-alt"></i> 15 day</span></li>
-                                <li>Target Location <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                             <ul>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                                </li>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
                                 </li>
                             </ul>
                             <p>
                                 Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
                                 produced concerns ten.
                             </p>
-                            <div class="progress-box">
-                                <h5>Raised $57,089<span class="pull-right">Goal $50,000</span></h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="22"></div>
-                                </div>
-                            </div>
-                            <a class="btn btn-theme effect btn-sm" href="#">Donate Now</a>
+                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -421,22 +359,18 @@
                         </div>
                         <div class="info">
                             <h4>Capetown orphanage</h4>
-                            <ul>
-                                <li>Time Left <span> <i class="fas fa-calendar-alt"></i> 15 day</span></li>
-                                <li>Target Location <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                             <ul>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                                </li>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
                                 </li>
                             </ul>
                             <p>
                                 Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
                                 produced concerns ten.
                             </p>
-                            <div class="progress-box">
-                                <h5>Raised $57,089<span class="pull-right">Goal $50,000</span></h5>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="22"></div>
-                                </div>
-                            </div>
-                            <a class="btn btn-theme effect btn-sm" href="#">Donate Now</a>
+                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
