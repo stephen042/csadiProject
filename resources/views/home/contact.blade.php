@@ -5,7 +5,7 @@
 <!-- Start Breadcrumb 
     ============================================= -->
 <div class="text-center bg-fixed shadow breadcrumb-area dark padding-xl text-light"
-    style="background-image: url(assets/assets/img/banner/13.jpg);">
+    style="background-image: url(assets/assets/img/pics/SHARP/ABC.jpg);">
     <div class="container">
         <div class="row">
             <div class="text-left col-md-6 col-sm-6">

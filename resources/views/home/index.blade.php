@@ -124,7 +124,7 @@
                     </div>
                     <div class="service-item">
                         <div class="thumb">
-                            <img src="assets/assets/img/services/3.jpg" alt="Thumb">
+                            <img src="assets/assets/img/pics/SCI/PHOTO-2024-07-03-17-28-15.jpg" alt="Thumb">
                         </div>
                         <div class="info">
                             <h4>Child Education</h4>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="service-item">
                         <div class="thumb">
-                            <img src="assets/assets/img/pics/CGPP/QIKL.jpg" alt="Thumb">
+                            <img src="assets/assets/img/pics/SCI/PHOTO-2024-07-03-23-29-36.jpg" alt="Thumb">
                         </div>
                         <div class="info">
                             <h4>Street child</h4>

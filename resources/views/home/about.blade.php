@@ -4,7 +4,7 @@
     
     <!-- Start Breadcrumb 
     ============================================= -->
-    <div class="text-center bg-fixed shadow breadcrumb-area dark padding-xl text-light" style="background-image: url(assets/assets/img/banner/10.jpg);">
+    <div class="text-center bg-fixed shadow breadcrumb-area dark padding-xl text-light" style="background-image: url(assets/assets/img/pics/ANRIN/FYUS.jpg);">
         <div class="container">
             <div class="row">
                 <div class="text-left col-md-6 col-sm-6">
@@ -21,60 +21,6 @@
         </div>
     </div>
     <!-- End Breadcrumb -->
-
-    <!-- Start History
-    ============================================= -->
-    <section class="history-area bg-gray default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="bg-cover col-md-6 video-info" style="background-image: url(assets/assets/img/banner/19.jpg);">
-                    <div class="overlay-video">
-                        <a href="https://www.youtube.com/watch?v=vQqZIFCab9o" class="popup-youtube video-play-button">
-                            <i class="fa fa-play"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 info">
-                    <h2>We’ve funded 120,00 charity projects for 20M people around the world.</h2>
-                    <h4>Gentleman as belonging he commanded believing dejection</h4>
-                    <p>
-                        Contented attending smallness it oh ye unwilling. Turned favour man two but lovers. Suffer should if waited common person little oh. Improved civility graceful sex few smallest screened settling. Likely active her warmly has
-                    </p>
-                    <div class="achivement-items row">
-                        <div class="col-md-6 col-sm-6 item">
-                            <div class="fun-fact">
-                                <i class="flaticon-vegetables"></i>
-                                <div class="timer" data-to="1345" data-speed="5000"></div>
-                                <span class="medium">Food Served</span>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 item">
-                            <div class="fun-fact">
-                                <i class="flaticon-solidarity"></i>
-                                <div class="timer" data-to="83778" data-speed="5000"></div>
-                                <span class="medium">Volunteer</span>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 item">
-                            <div class="fun-fact">
-                                <i class="flaticon-droplet"></i>
-                                <div class="timer" data-to="276450" data-speed="5000"></div>
-                                <span class="medium">Blood Donated</span>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 item">
-                            <div class="fun-fact">
-                                <i class="flaticon-kids-couple"></i>
-                                <div class="timer" data-to="4567" data-speed="5000"></div>
-                                <span class="medium">Happy Children</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End  History -->
 
     <!-- Start Our Mission
     ============================================= -->
@@ -259,146 +205,6 @@
         </div>
     </div>
     <!-- End Team Members -->
-
-    <!-- Start Event
-    ============================================= -->
-    <div class="event-area default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="text-center site-heading">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2>Our Event</h2>
-                        <p>
-                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="event-items inner-cell event-carousel owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/assets/img/event/1.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <div class="date">
-                                    12 Oct <span>2018</span>
-                                </div>
-                                <div class="content">
-                                    <h4>
-                                        <a href="#">Paid hill fine ten now love</a>
-                                    </h4>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                            </li>
-                                            <li>
-                                                <i class="fas fa-clock"></i> 8:00 - 16:00
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p>
-                                        Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see.  
-                                    </p>
-                                    <a class="btn btn-theme effect btn-sm" href="#">Learn more <i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/assets/img/event/2.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <div class="date">
-                                    23 Nov <span>2018</span>
-                                </div>
-                                <div class="content">
-                                    <h4>
-                                        <a href="#">Mutual living ask extent</a>
-                                    </h4>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                            </li>
-                                            <li>
-                                                <i class="fas fa-clock"></i> 8:00 - 16:00
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p>
-                                        Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see.  
-                                    </p>
-                                    <a class="btn btn-theme effect btn-sm" href="#">Learn more <i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/assets/img/event/3.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <div class="date">
-                                    05 Jun <span>2018</span>
-                                </div>
-                                <div class="content">
-                                    <h4>
-                                        <a href="#">Theirs expect dinner</a>
-                                    </h4>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                            </li>
-                                            <li>
-                                                <i class="fas fa-clock"></i> 8:00 - 16:00
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p>
-                                        Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see.  
-                                    </p>
-                                    <a class="btn btn-theme effect btn-sm" href="#">Learn more <i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/assets/img/event/4.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <div class="date">
-                                    22 Dec <span>2018</span>
-                                </div>
-                                <div class="content">
-                                    <h4>
-                                        <a href="#">Separate screened outweigh</a>
-                                    </h4>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                            </li>
-                                            <li>
-                                                <i class="fas fa-clock"></i> 8:00 - 16:00
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <p>
-                                        Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see.  
-                                    </p>
-                                    <a class="btn btn-theme effect btn-sm" href="#">Learn more <i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Event -->
 
     <!-- Clients
     ============================================= -->
