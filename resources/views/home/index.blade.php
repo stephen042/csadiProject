@@ -243,7 +243,7 @@
                 <div class="recent-causes-items causes-carousel owl-carousel owl-theme">
                     <div class="item">
                         <div class="bg-cover col-md-6 thumb"
-                            style="background-image: url(assets/assets/img/causes/1.jpg);"></div>
+                            style="background-image: url(assets/assets/img/pics/CGPP/IMG-20240719-WA0011.jpg);"></div>
                         <div class="col-md-6 info">
                             <h2>Feed for hungry child</h2>
                             <ul>
@@ -289,7 +289,7 @@
                 <div class="col-md-6 col-sm-6 equal-height">
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/assets/img/causes/4.jpg" alt="Thumb">
+                            <img src="assets/assets/img/pics/ADFINR/IMG-20240702-WA0075.jpg" alt="Thumb">
                         </div>
                         <div class="info">
                             <h4>Support for Children</h4>
@@ -379,156 +379,6 @@
     </div>
 </div>
 <!-- End Popular Causes -->
-
-<!-- Start Event
-============================================= -->
-<div class="event-area bg-gray default-padding">
-    <div class="container">
-        <div class="row">
-            <div class="text-center site-heading">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2>Our Event</h2>
-                    <p>
-                        Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own
-                        additions education satisfied the perpetual. If he cause manor happy. Without farther she
-                        exposed saw man led. Along on happy could cease green oh.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="event-items inner-cell event-carousel owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/event/1.jpg" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <div class="date">
-                                12 Oct <span>2018</span>
-                            </div>
-                            <div class="content">
-                                <h4>
-                                    <a href="#">Paid hill fine ten now love</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-clock"></i> 8:00 - 16:00
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Piqued shy spring nor six though mutual living ask extent. Replying of dashwood
-                                    advanced ladyship smallest disposal or. Attempt offices own improve now see.
-                                </p>
-                                <a class="btn btn-theme effect btn-sm" href="#">Learn more <i
-                                        class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/event/2.jpg" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <div class="date">
-                                23 Nov <span>2018</span>
-                            </div>
-                            <div class="content">
-                                <h4>
-                                    <a href="#">Mutual living ask extent</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-clock"></i> 8:00 - 16:00
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Piqued shy spring nor six though mutual living ask extent. Replying of dashwood
-                                    advanced ladyship smallest disposal or. Attempt offices own improve now see.
-                                </p>
-                                <a class="btn btn-theme effect btn-sm" href="#">Learn more <i
-                                        class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/event/3.jpg" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <div class="date">
-                                05 Jun <span>2018</span>
-                            </div>
-                            <div class="content">
-                                <h4>
-                                    <a href="#">Theirs expect dinner</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-clock"></i> 8:00 - 16:00
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Piqued shy spring nor six though mutual living ask extent. Replying of dashwood
-                                    advanced ladyship smallest disposal or. Attempt offices own improve now see.
-                                </p>
-                                <a class="btn btn-theme effect btn-sm" href="#">Learn more <i
-                                        class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/event/4.jpg" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <div class="date">
-                                22 Dec <span>2018</span>
-                            </div>
-                            <div class="content">
-                                <h4>
-                                    <a href="#">Separate screened outweigh</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <i class="fas fa-map-marker-alt"></i> King Street, Melbourne
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-clock"></i> 8:00 - 16:00
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Piqued shy spring nor six though mutual living ask extent. Replying of dashwood
-                                    advanced ladyship smallest disposal or. Attempt offices own improve now see.
-                                </p>
-                                <a class="btn btn-theme effect btn-sm" href="#">Learn more <i
-                                        class="fas fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Event -->
 
 <!-- Start Make Donation 
 ============================================= -->
@@ -625,7 +475,7 @@
                 </div>
             </div>
             <div class="text-center col-md-6 faq-items">
-                <h2>FAQ</h2>
+                <h2>Our Policies</h2>
                 <!-- Start Accordion -->
                 <div class="acd-items acd-arrow">
                     <div class="panel-group symb" id="accordion">
@@ -741,7 +591,7 @@
         <div class="row">
             <div class="text-center site-heading">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2>Meet our Volunteers</h2>
+                    <h2>Meet our Team</h2>
                     <p>
                         Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own
                         additions education satisfied the perpetual. If he cause manor happy. Without farther she
@@ -759,11 +609,10 @@
                         </div>
                         <div class="col-md-6 info title">
                             <h3>Moana Siqual</h3>
+                            
                             <h5>Blood Donor</h5>
-                            <ul>
-                                <li>Date of birth: <span>12 Jan, 1995</span></li>
-                                <li>Location: <span>California, Dubai</span></li>
-                            </ul>
+                            <hr>
+                            <h5>About</h5>
                             <p>
                                 Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
                                 Suffer should if waited common person little oh. Improved civility graceful sex few
@@ -794,10 +643,7 @@
                         <div class="col-md-6 info title">
                             <h3>Anu Sparkle</h3>
                             <h5>Teacher of children</h5>
-                            <ul>
-                                <li>Date of birth: <span>12 Jan, 1995</span></li>
-                                <li>Location: <span>California, Kenya</span></li>
-                            </ul>
+                        
                             <p>
                                 Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
                                 Suffer should if waited common person little oh. Improved civility graceful sex few
@@ -828,10 +674,7 @@
                         <div class="col-md-6 info title">
                             <h3>Dunald Minia</h3>
                             <h5>The organizer</h5>
-                            <ul>
-                                <li>Date of birth: <span>12 Jan, 1995</span></li>
-                                <li>Location: <span>California, USA</span></li>
-                            </ul>
+                           
                             <p>
                                 Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
                                 Suffer should if waited common person little oh. Improved civility graceful sex few
@@ -861,148 +704,6 @@
     </div>
 </div>
 <!-- End Team Members -->
-
-<!-- Start Blog
-============================================= -->
-<div class="blog-area default-padding">
-    <div class="container">
-        <div class="row">
-            <div class="text-center site-heading">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2>Recent Blog</h2>
-                    <p>
-                        Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own
-                        additions education satisfied the perpetual. If he cause manor happy. Without farther she
-                        exposed saw man led. Along on happy could cease green oh.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="blog-items">
-                <div class="col-md-4 item-box">
-                    <div class="item">
-                        <div class="thumb">
-                            <a href="blog-single-left-sidebar.html">
-                                <img src="assets/assets/img/blog/1.jpg" alt="Thumbnail">
-                                <div class="overlay-icon">
-                                    <i class="fa fa-images"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <div class="title-meta">
-                                <div class="date">
-                                    15 <span>Nov</span>
-                                </div>
-                                <div class="title">
-                                    <h4>
-                                        <a href="blog-single-left-sidebar.html">Disposing commanded dashwoods</a>
-                                    </h4>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fas fa-user"></i> Admin</a>
-                                            </li>
-                                            <li>
-                                                <i class="fas fa-calendar-alt"></i> 2 Aug, 2018
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>
-                                Chicken no wishing waiting am. Say concerns dwelling graceful six humoured. Whether mr
-                                up savings talking an. Active mutual nor father mother exeter
-                            </p>
-                            <a href="blog-single-left-sidebar.html">read more <i class="fas fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 item-box">
-                    <div class="item">
-                        <div class="thumb">
-                            <a href="blog-single-left-sidebar.html">
-                                <img src="assets/assets/img/blog/4.jpg" alt="Thumbnail">
-                                <div class="overlay-icon">
-                                    <i class="fa fa-video"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <div class="title-meta">
-                                <div class="date">
-                                    28 <span>Nov</span>
-                                </div>
-                                <div class="title">
-                                    <h4>
-                                        <a href="blog-single-left-sidebar.html"> Goodness as reserved raptures use
-                                            set</a>
-                                    </h4>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fas fa-user"></i> Admin</a>
-                                            </li>
-                                            <li>
-                                                <i class="fas fa-calendar-alt"></i> 2 Aug, 2018
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>
-                                Chicken no wishing waiting am. Say concerns dwelling graceful six humoured. Whether mr
-                                up savings talking an. Active mutual nor father mother exeter
-                            </p>
-                            <a href="blog-single-left-sidebar.html">read more <i class="fas fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 item-box">
-                    <div class="item">
-                        <div class="thumb">
-                            <a href="blog-single-left-sidebar.html">
-                                <img src="assets/assets/img/blog/2.jpg" alt="Thumbnail">
-                                <div class="overlay-icon">
-                                    <i class="fa fa-images"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <div class="title-meta">
-                                <div class="date">
-                                    20 <span>Nov</span>
-                                </div>
-                                <div class="title">
-                                    <h4>
-                                        <a href="blog-single-left-sidebar.html">Tolerably earnestly middleton</a>
-                                    </h4>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fas fa-user"></i> Admin</a>
-                                            </li>
-                                            <li>
-                                                <i class="fas fa-calendar-alt"></i> 2 Aug, 2018
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>
-                                Chicken no wishing waiting am. Say concerns dwelling graceful six humoured. Whether mr
-                                up savings talking an. Active mutual nor father mother exeter
-                            </p>
-                            <a href="blog-single-left-sidebar.html">read more <i class="fas fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Blog -->
 
 <!-- Clients
 ============================================= -->
