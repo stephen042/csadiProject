@@ -12,13 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('projects', function (Blueprint $table) {
-            $table->id()->autoIncrement();
-            $table->uuid('uuid');
+            $table->uuid('id')->unique();
             $table->string('heading');
+            $table->string('facebook_link');
+            $table->string('starting_date');
+            $table->string('ending_date');
             $table->string('location');
-            $table->string('placeholder');
+            $table->string('placeholder_image');
             $table->longText('description');
-            $table->longText('images');
+            $table->json('images');
             $table->timestamps();
         });
     }
