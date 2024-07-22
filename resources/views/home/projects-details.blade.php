@@ -29,15 +29,31 @@
             <div class="col-md-12 carousel">
                 <div class="pf-thum-carousel owl-carousel owl-thumb">
                     @php
-                        $imageUrls = json_decode($project->images, true); 
+                    $imageUrls = json_decode($project->images, true);
                     @endphp
                     @foreach ($imageUrls as $img)
-                        <img src="{{$img}}" alt="Thumb">
+                    <img src="{{$img}}" alt="Thumb">
                     @endforeach
 
                 </div>
             </div>
             <div class="col-md-12 conetnt">
+                <ul>
+                    <li>Duration <span> <i class="fas fa-calendar-alt"></i> {{$project->starting_date}} -
+                            {{$project->ending_date}}</span></li>
+                    ||
+                    <li>Target Beneficiaries <span> <i class="fas fa-users"></i>
+                            {{$project->target_beneficiaries}}</span>
+                    </li>
+                    ||
+                    <li>Funded By <span> <i class="fa fa-wallet"></i> {{$project->funded_by}}</span>
+                    </li>
+                    ||
+                    <li>
+                        Location <span> <i class="fas fa-map-marker-alt"></i> {{$project->location}}</span>
+                    </li>
+                </ul>
+                <hr>
                 <h2>{{$project->heading}}</h2>
                 <p>
                     {{$project->description}}

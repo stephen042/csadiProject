@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('ending_date');
             $table->string('location');
             $table->string('placeholder_image');
+            $table->string('funded_by');
+            $table->string('target_beneficiaries');
             $table->longText('description');
             $table->json('images');
             $table->timestamps();

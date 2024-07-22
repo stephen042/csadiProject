@@ -7,7 +7,8 @@
         <!-- Wrapper for slides -->
         <div class="uppercase carousel-inner text-light carousel-zoom">
             <div class="item active">
-                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/ANRIN/SAAA.jpg);"></div>
+                <div class="bg-fixed slider-thumb"
+                    style="background-image: url(assets/assets/img/pics/ANRIN/SAAA.jpg);"></div>
                 <div class="box-table">
                     <div class="shadow box-cell dark">
                         <div class="container">
@@ -29,7 +30,8 @@
                 </div>
             </div>
             <div class="item">
-                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/ADFINR/IMG-20240702-WA0079.jpg);"></div>
+                <div class="bg-fixed slider-thumb"
+                    style="background-image: url(assets/assets/img/pics/ADFINR/IMG-20240702-WA0079.jpg);"></div>
                 <div class="box-table">
                     <div class="shadow box-cell dark">
                         <div class="container">
@@ -52,7 +54,8 @@
                 </div>
             </div>
             <div class="item">
-                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/CHAI/GHKLMN.jpg);"></div>
+                <div class="bg-fixed slider-thumb"
+                    style="background-image: url(assets/assets/img/pics/CHAI/GHKLMN.jpg);"></div>
                 <div class="box-table">
                     <div class="shadow box-cell dark">
                         <div class="container">
@@ -236,31 +239,47 @@
         <div class="row">
             <div class="text-center site-heading">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2>Recent Projects ..</h2>
+                    <h2>
+                        <marquee behavior="" direction="" scrollamount="6">Recent Projects .... </marquee>
+                    </h2>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="recent-causes-items causes-carousel owl-carousel owl-theme">
+                    @forelse ($latest_projects as $project)
                     <div class="item">
                         <div class="bg-cover col-md-6 thumb"
                             style="background-image: url(assets/assets/img/pics/CGPP/IMG-20240719-WA0011.jpg);"></div>
                         <div class="col-md-6 info">
-                            <h2>Feed for hungry child</h2>
+                            <h2>{{$project->heading}}</h2>
                             <ul>
-                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
-                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> {{$project->starting_date}} -
+                                        {{$project->ending_date}}</span></li>
+                                <li>Target Beneficiaries <span> <i class="fas fa-users"></i>
+                                        {{$project->target_beneficiaries}}</span>
                                 </li>
-                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
+                                <li>Funded By <span> <i class="fa fa-wallet"></i> {{$project->funded_by}}</span>
+                                </li>
+                                <li>
+                                    Location <span> <i class="fas fa-map-marker-alt"></i> {{$project->location}}</span>
                                 </li>
                             </ul>
                             <p>
-                                Neither it cordial so painful picture studied if. Sex him position doubtful resolved boy
-                                expenses. Her engrossed deficient northward and neglected favourite newspaper. But use
-                                peculiar produced concerns ten.
+                                {{ Str::words($project->description, 20, '...') }}
                             </p>
-                            <a class="btn btn-theme effect btn-sm" href="#">Learn more</a>
+                            <a class="btn btn-theme effect btn-sm"
+                                href="{{ route('projects-details',[$project])}}">Learn more <i
+                                    class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
+                    @empty
+                    <center>
+                        <h2>
+                            No Recent Projects at the moments
+                        </h2>
+                    </center>
+
+                    @endforelse
                 </div>
             </div>
         </div>
@@ -268,7 +287,7 @@
 </div>
 <!-- End Recent Causes -->
 
-<!-- Start Popular Causes
+<!-- Start completed Projects
 ============================================= -->
 <div class="popular-causes-area default-padding bottom-less">
     <div class="container">
@@ -286,94 +305,42 @@
         </div>
         <div class="row">
             <div class="popular-causes-items">
+                @forelse ($projects as $project)
                 <div class="col-md-6 col-sm-6 equal-height">
                     <div class="item">
                         <div class="thumb">
                             <img src="assets/assets/img/pics/ADFINR/IMG-20240702-WA0075.jpg" alt="Thumb">
                         </div>
                         <div class="info">
-                            <h4>Support for Children</h4>
-                             <ul>
-                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
-                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
+                            <h4>{{$project->heading}}</h4>
+                            <ul>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> {{$project->starting_date}} -
+                                        {{$project->ending_date}}</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i>
+                                        {{$project->target_beneficiaries}}</span>
                                 </li>
-                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> {{$project->funded_by}}</span>
                                 </li>
-                            </ul>
-                            <p>
-                                Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
-                                produced concerns ten.
-                            </p>
-                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 equal-height">
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/causes/5.jpg" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <h4>Food for syrian</h4>
-                             <ul>
-                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
-                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
-                                </li>
-                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
+                                <li>
+                                    Location <span> <i class="fas fa-map-marker-alt"></i> {{$project->location}}</span>
                                 </li>
                             </ul>
                             <p>
-                                Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
-                                produced concerns ten.
+                                {{ Str::words($project->description, 20, '...') }}
                             </p>
-                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
+                            <a class="btn btn-theme effect btn-sm" href="{{ route('projects-details',[$project])}}">
+                                Learn more 
+                                <i class="fas fa-angle-right"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 equal-height">
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/causes/6.jpg" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <h4>Uganda education</h4>
-                             <ul>
-                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
-                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
-                                </li>
-                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
-                                </li>
-                            </ul>
-                            <p>
-                                Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
-                                produced concerns ten.
-                            </p>
-                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 equal-height">
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/causes/7.jpg" alt="Thumb">
-                        </div>
-                        <div class="info">
-                            <h4>Capetown orphanage</h4>
-                             <ul>
-                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2022 - 2023</span></li>
-                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i> Mombasa, USA</span>
-                                </li>
-                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr, John</span>
-                                </li>
-                            </ul>
-                            <p>
-                                Her engrossed deficient northward and neglected favourite newspaper. But use peculiar
-                                produced concerns ten.
-                            </p>
-                            <a class="btn btn-theme effect btn-sm" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
+                @empty
+                <h2>
+                    No Projects at the moments
+                </h2>
+                @endforelse
+
             </div>
         </div>
     </div>
@@ -609,7 +576,7 @@
                         </div>
                         <div class="col-md-6 info title">
                             <h3>Moana Siqual</h3>
-                            
+
                             <h5>Blood Donor</h5>
                             <hr>
                             <h5>About</h5>
@@ -643,7 +610,7 @@
                         <div class="col-md-6 info title">
                             <h3>Anu Sparkle</h3>
                             <h5>Teacher of children</h5>
-                        
+
                             <p>
                                 Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
                                 Suffer should if waited common person little oh. Improved civility graceful sex few
@@ -674,7 +641,7 @@
                         <div class="col-md-6 info title">
                             <h3>Dunald Minia</h3>
                             <h5>The organizer</h5>
-                           
+
                             <p>
                                 Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
                                 Suffer should if waited common person little oh. Improved civility graceful sex few
