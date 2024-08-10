@@ -34,7 +34,7 @@ new class extends Component {
                             <a href="about" >About</a>
                         </li>
                         <li>
-                            <a href="/contact" >Contact Us</a>
+                            <a href="contact" >Contact Us</a>
                         </li>
                         <li>
                             <a href="projects">Projects</a>
