@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->uuid('id')->unique();
+            $table->foreignId('user_id')->constrained();
             $table->string('heading');
             $table->string('facebook_link');
             $table->string('starting_date');

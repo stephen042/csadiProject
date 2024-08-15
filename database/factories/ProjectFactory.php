@@ -2,6 +2,8 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
+use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,6 +20,7 @@ class ProjectFactory extends Factory
     {
         return [
             "id" => fake()->uuid(),
+            "user_id" => 2,
             "heading" => fake()->sentence(),
             "starting_date" => fake()->year(),
             "facebook_link" => fake()->url(),

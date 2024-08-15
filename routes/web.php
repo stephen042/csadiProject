@@ -47,7 +47,7 @@ Route::view('/gallery', 'home/gallery', [
 // Auth routes
 Route::view('/login', 'auth/login', [
     'title' => 'Login',
-] );
+] )->name('login');
 
 Route::prefix('admin')->group(function () {
 

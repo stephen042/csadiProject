@@ -7,7 +7,7 @@
 
   <title>{{ env('APP_NAME')}} - {{$title ?? ""}}</title>
   <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Donation, Kids" name="keywords">
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="{{asset('assets/assets/img/favicon.png')}}" type="image/x-icon">
@@ -32,29 +32,9 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <x-admin.header />
- <!-- End Header -->
-
-  <!-- ======= Sidebar ======= -->
-  <x-admin.aside />
-  <!-- End Sidebar-->
-
-  <main id="main" class="main">
-
-   @yield('content')
-
+  <main>
+    @yield('content')
   </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="copyright">
-      &copy; Copyright <strong><span>CSADI</span></strong>. All Rights Reserved
-    </div>
-    {{-- <div class="credits">
-      Designed by <a href="https://bootstrapmade.com/">INNOVAGIGS</a>
-    </div> --}}
-  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
