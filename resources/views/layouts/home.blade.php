@@ -27,13 +27,6 @@
     <link href="{{asset('assets/assets/css/responsive.css')}}" rel="stylesheet">
     <!-- ========== End Stylesheet ========== -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="assets/js/html5/html5shiv.min.js"></script>
-        <script src="assets/js/html5/respond.min.js"></script>
-    <![endif]-->
-
     <title>{{ env('APP_NAME')}} - {{$title ?? ""}}</title>
 
     <!-- Fonts -->
@@ -53,6 +46,7 @@
             color: rgb(89, 185, 234);
         }
     </style>
+    @livewireStyles
 </head>
 
 <body class="font-sans antialiased text-gray-900">
@@ -80,7 +74,7 @@
 
     <!-- jQuery Frameworks ============================================= -->
     @include('includes.scripts')
-
+    @livewireScripts
 </body>
 
 </html>

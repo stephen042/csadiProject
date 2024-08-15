@@ -109,74 +109,8 @@
                             </div>
                             <div class="col-md-6 info title">
                                 <h3>Moana Siqual</h3>
-                                <h5>Blood Donor</h5>
                                 <ul>
-                                    <li>Date of birth: <span>12 Jan, 1995</span></li>
-                                    <li>Location: <span>California, Dubai</span></li>
-                                </ul>
-                                <p>
-                                    Contented attending smallness it oh ye unwilling. Turned favour man two but lovers. Suffer should if waited common person little oh. Improved civility graceful sex few smallest screened settling. Likely active her warmly has
-                                </p>
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-dribbble"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-6 thumb">
-                                <img src="assets/assets/img/team/2.jpg" alt="Team">
-                            </div>
-                            <div class="col-md-6 info title">
-                                <h3>Anu Sparkle</h3>
-                                <h5>Teacher of children</h5>
-                                <ul>
-                                    <li>Date of birth: <span>12 Jan, 1995</span></li>
-                                    <li>Location: <span>California, Kenya</span></li>
-                                </ul>
-                                <p>
-                                    Contented attending smallness it oh ye unwilling. Turned favour man two but lovers. Suffer should if waited common person little oh. Improved civility graceful sex few smallest screened settling. Likely active her warmly has
-                                </p>
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-dribbble"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-md-6 thumb">
-                                <img src="assets/assets/img/team/3.jpg" alt="Team">
-                            </div>
-                            <div class="col-md-6 info title">
-                                <h3>Dunald Minia</h3>
-                                <h5>The organizer</h5>
-                                <ul>
-                                    <li>Date of birth: <span>12 Jan, 1995</span></li>
-                                    <li>Location: <span>California, USA</span></li>
+                                    <li>Position: <span>Executive Director</span></li>
                                 </ul>
                                 <p>
                                     Contented attending smallness it oh ye unwilling. Turned favour man two but lovers. Suffer should if waited common person little oh. Improved civility graceful sex few smallest screened settling. Likely active her warmly has

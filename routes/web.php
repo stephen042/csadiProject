@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Models\Project;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Xml\Project as XmlProject;
@@ -43,17 +44,16 @@ Route::view('/gallery', 'home/gallery', [
     'title' => 'Gallery',
 ] );
 
+// Auth routes
+Route::view('/login', 'auth/login', [
+    'title' => 'Login',
+] );
+
 Route::prefix('admin')->group(function () {
 
-    Route::middleware(['auth'])->group(function () {
+    Route::middleware(['auth','admin'])->group(function () {
         
-        Route::view('dashboard', 'admin/dashboard')
-            ->middleware(['auth', 'verified'])
-            ->name('dashboard');
-
-        Route::view('profile', 'admin/profile')
-            ->middleware(['auth'])
-            ->name('profile');
+        Route::get('/', [AdminController::class, 'dashboard'])->name('dashboard');
     });
 });
 
