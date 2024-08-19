@@ -26,11 +26,6 @@
                                         class="bi bi-pencil-square"></i>
                                     view
                                 </a>
-                                <button class="btn btn-sm btn-danger m-1" wire:click="deleteMember({{$member->id}})">
-                                    wire:confirm="Are you sure you want to delete this user?">
-                                    <i class="bi bi-archive-fill"></i>
-                                    Delete
-                                </button>
                             </div>
                         </td>
                     </tr>

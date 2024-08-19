@@ -61,6 +61,13 @@ class EditMember extends Component
         return redirect()->route('edit_member',[$this->member->id]);
     }
 
+    public function deleteMember(){
+        $this->member->delete();
+        
+        session()->flash('success', 'Member deleted successfully.');
+        return redirect()->route('dashboard');
+    }
+
     public function render()
     {
         return view('livewire.admin.edit-member');

@@ -54,7 +54,9 @@
                 <button type="submit" class="btn btn-primary">Update
                     <x-spinner />
                 </button>
-                <button type="reset" class="btn btn-secondary">Reset</button>
+
+                <button type="button" class="btn btn-danger float-end" wire:confirm="Are you sure you want to delete this member?"
+                wire:click="deleteMember()">Delete Member <i class="bi bi-archive-fill"></i></button>
             </div>
         </form><!-- Vertical Form -->
 
