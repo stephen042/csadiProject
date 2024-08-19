@@ -54,6 +54,7 @@ Route::prefix('admin')->group(function () {
     Route::middleware(['auth','admin'])->group(function () {
         
         Route::get('/', [AdminController::class, 'dashboard'])->name('dashboard');
+        Route::get('/edit-member/{member}', [AdminController::class, 'members'])->name('edit_member');
     });
 });
 

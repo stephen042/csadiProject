@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('members', function (Blueprint $table) {
             $table->uuid('id')->unique();
             $table->string('name');
-            $table->string('string');
-            $table->json('socials');
+            $table->string('position');
+            $table->string('image');
             $table->date('start_date')->nullable();
             $table->longText('description');
             $table->timestamps();

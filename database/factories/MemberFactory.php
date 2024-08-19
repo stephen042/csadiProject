@@ -17,7 +17,14 @@ class MemberFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            "id" => fake()->uuid(),
+            "name" => fake()->name(),
+            "position" => fake()->jobTitle(),
+            "image" => fake()->imageUrl(),
+            "start_date" => fake()->date(),
+            "description" => fake()->paragraph(10),
+            "created_at" => now(),
+            "updated_at" => now(),
         ];
     }
 }
