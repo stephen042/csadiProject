@@ -61,7 +61,7 @@
               @enderror
             </div>
             <div class="text-center">
-              <button type="submit" class="btn btn-primary">Update</button>
+              <button type="submit" class="btn btn-primary confirm">Update</button>
             </div>
           </form>
           <!-- Vertical Form -->

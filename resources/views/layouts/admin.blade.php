@@ -75,15 +75,24 @@
     document.addEventListener('DOMContentLoaded', function () {
     const confirmElements = document.querySelectorAll('.confirm');
 
-    confirmElements.forEach(function (element) {
-        element.addEventListener('click', function (event) {
-            const userConfirmed = confirm('Are you sure you want to take this action?');
-            if (!userConfirmed) {
-                event.preventDefault(); // Prevent the default action if the user cancels
-            }
-        });
+      confirmElements.forEach(function (element) {
+          element.addEventListener('click', function (event) {
+              const userConfirmed = confirm('Are you sure you want to take this action?');
+
+              if (!userConfirmed) {
+                  event.preventDefault(); // Prevent the default action if the user cancels
+              } else {
+                  // Change the button text to "Please wait..." and delay disabling
+                  element.textContent = 'Please wait...';
+                  
+                  // Slight delay to allow the form or action to proceed
+                  setTimeout(function () {
+                      element.disabled = true; // Disable the button to prevent multiple clicks
+                  }, 50);
+              }
+          });
+      });
     });
-});
 
   </script>
 
