@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use App\Models\Member;
 use App\Models\Project;
-use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class AdminController extends Controller
 {
@@ -43,6 +44,11 @@ class AdminController extends Controller
 
             // Handle image upload if provided
             if ($request->hasFile('image')) {
+                // Delete the old image if it exists
+                if ($member->image) {
+                    Storage::disk('public')->delete($member->image);
+                }
+                
                 $imagePath = $request->file('image')->store('members', 'public');
             } else {
                 $imagePath = $member->image;
@@ -59,9 +65,6 @@ class AdminController extends Controller
             ]);
 
             return redirect()->route('edit_member', [$member->id])->with('success', 'Member updated successfully.');
-        } else if ($request->method() == 'DELETE') {
-            $member->delete();
-            return redirect()->route('dashboard')->with('success', 'Member deleted successfully.');
         }
     }
 
