@@ -27,6 +27,17 @@
                                     view
                                 </a>
                             </div>
+                            <div class="btn-group" role="group">
+                                <form action="{{ route('delete_member', [$member->id]) }}"
+                                    method="POST">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-sm btn-danger m-1 confirm">
+                                        <i class="bi bi-archive-fill"></i>
+                                        Delete
+                                    </button>
+                                </form>
+                            </div>
                         </td>
                     </tr>
                     @empty

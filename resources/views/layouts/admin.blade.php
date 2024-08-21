@@ -14,7 +14,9 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="{{asset('assets/admin/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -34,7 +36,7 @@
 
   <!-- ======= Header ======= -->
   <x-admin.header />
- <!-- End Header -->
+  <!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
   <x-admin.aside />
@@ -42,7 +44,7 @@
 
   <main id="main" class="main">
 
-   @yield('content')
+    @yield('content')
 
   </main><!-- End #main -->
 
@@ -56,7 +58,8 @@
     </div> --}}
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="{{asset('assets/admin/assets/vendor/apexcharts/apexcharts.min.js')}}"></script>
@@ -67,6 +70,22 @@
   <script src="{{asset('assets/admin/assets/vendor/simple-datatables/simple-datatables.js')}}"></script>
   <script src="{{asset('assets/admin/assets/vendor/tinymce/tinymce.min.js')}}"></script>
   <script src="{{asset('assets/admin/assets/vendor/php-email-form/validate.js')}}"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const confirmElements = document.querySelectorAll('.confirm');
+
+    confirmElements.forEach(function (element) {
+        element.addEventListener('click', function (event) {
+            const userConfirmed = confirm('Are you sure you want to take this action?');
+            if (!userConfirmed) {
+                event.preventDefault(); // Prevent the default action if the user cancels
+            }
+        });
+    });
+});
+
+  </script>
 
   <!-- Template Main JS File -->
   <script src="{{asset('assets/admin/assets/js/main.js')}}"></script>

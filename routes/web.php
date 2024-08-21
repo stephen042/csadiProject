@@ -55,6 +55,8 @@ Route::prefix('admin')->group(function () {
         
         Route::get('/', [AdminController::class, 'dashboard'])->name('dashboard');
         Route::get('/edit-member/{member}', [AdminController::class, 'members'])->name('edit_member');
+        Route::post('/edit-member/{member}', [AdminController::class, 'members'])->name('post_edit_member');
+        Route::delete('/members/{member}', [AdminController::class, 'deleteMember'])->name('delete_member');
     });
 });
 
