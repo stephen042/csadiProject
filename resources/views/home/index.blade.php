@@ -576,102 +576,26 @@
         <div class="row">
             <div class="col-md-12 team-member-info">
                 <div class="team-carousel-items owl-carousel owl-theme">
+                    @forelse ($members as $member)
                     <div class="item">
                         <div class="col-md-6 thumb">
-                            <img src="assets/assets/img/team/1.jpg" alt="Team">
+                            <img src="{{asset('storage/'.$member->image)}}" alt="Team">
                         </div>
                         <div class="col-md-6 info title">
-                            <h3>Moana Siqual</h3>
+                            <h3>{{$member->name}}</h3>
 
-                            <h5>Blood Donor</h5>
+                            <h5>{{$member->position}}</h5>
                             <hr>
                             <h5>About</h5>
                             <p>
-                                Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
-                                Suffer should if waited common person little oh. Improved civility graceful sex few
-                                smallest screened settling. Likely active her warmly has
+                                {{$member->description}}
                             </p>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="col-md-6 thumb">
-                            <img src="assets/assets/img/team/2.jpg" alt="Team">
-                        </div>
-                        <div class="col-md-6 info title">
-                            <h3>Anu Sparkle</h3>
-                            <h5>Teacher of children</h5>
-
-                            <p>
-                                Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
-                                Suffer should if waited common person little oh. Improved civility graceful sex few
-                                smallest screened settling. Likely active her warmly has
-                            </p>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-md-6 thumb">
-                            <img src="assets/assets/img/team/3.jpg" alt="Team">
-                        </div>
-                        <div class="col-md-6 info title">
-                            <h3>Dunald Minia</h3>
-                            <h5>The organizer</h5>
-
-                            <p>
-                                Contented attending smallness it oh ye unwilling. Turned favour man two but lovers.
-                                Suffer should if waited common person little oh. Improved civility graceful sex few
-                                smallest screened settling. Likely active her warmly has
-                            </p>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-dribbble"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    @empty
+                    @endforelse
                 </div>
+
             </div>
         </div>
     </div>

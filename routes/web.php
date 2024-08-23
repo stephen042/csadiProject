@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Models\Member;
 use App\Models\Project;
 use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Xml\Project as XmlProject;
@@ -12,6 +13,7 @@ Route::view('/', 'home/index', [
 Route::get('/', function (Project $projects) {
     
     return view('home.index',[
+        'members' => Member::all(),
         'projects' => $projects->take(4)->get(),
         'latest_projects' => $projects->latest('created_at')->take(3)->get(),
         'title' => 'Home',
