@@ -25,10 +25,10 @@ new class extends Component {
                                 @forelse ($images as $image)
                                 <div class="pf-item branding photography">
                                     <div class="item-inner">
-                                        <img src="assets/assets/img/gallery/11.jpg" alt="Thumb">
+                                        <img src="{{asset('storage/'.$image->placeholder_image)}}" alt="Thumb">
                                         <div class="overlay">
                                             <div class="view-list">
-                                                <a href="assets/assets/img/gallery/11.jpg" class="item popup-link"><i
+                                                <a href="{{asset('storage/'.$image->placeholder_image)}}" class="item popup-link"><i
                                                         class="fa fa-expand"></i></a>
                                             </div>
                                         </div>

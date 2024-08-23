@@ -248,29 +248,35 @@
                 <div class="recent-causes-items causes-carousel owl-carousel owl-theme">
                     @forelse ($latest_projects as $project)
                     <div class="item">
-                        <div class="bg-cover col-md-6 thumb"
-                            style="background-image: url(assets/assets/img/pics/CGPP/IMG-20240719-WA0011.jpg);"></div>
-                        <div class="col-md-6 info">
-                            <h2>{{$project->heading}}</h2>
-                            <ul>
-                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> {{$project->starting_date}} -
-                                        {{$project->ending_date}}</span></li>
-                                <li>Target Beneficiaries <span> <i class="fas fa-users"></i>
-                                        {{$project->target_beneficiaries}}</span>
-                                </li>
-                                <li>Funded By <span> <i class="fa fa-wallet"></i> {{$project->funded_by}}</span>
-                                </li>
-                                <li>
-                                    Location <span> <i class="fas fa-map-marker-alt"></i> {{$project->location}}</span>
-                                </li>
-                            </ul>
-                            <p>
-                                {{ Str::words($project->description, 20, '...') }}
-                            </p>
-                            <a class="btn btn-theme effect btn-sm"
-                                href="{{ route('projects-details',[$project])}}">Learn more <i
-                                    class="fas fa-angle-right"></i></a>
-                        </div>
+                        <center>
+                            <div class="bg-cover col-md-6 thumb"
+                                style="background-image: url('{{ asset('storage/' . $project->placeholder_image) }}');">
+                            </div>
+                            <div class="col-md-6 info">
+                                <h2>{{$project->heading}}</h2>
+                                <ul>
+                                    <li>Duration <span> <i class="fas fa-calendar-alt"></i> {{$project->starting_date}}
+                                            -
+                                            {{$project->ending_date}}</span></li>
+                                    <li>Target Beneficiaries <span> <i class="fas fa-users"></i>
+                                            {{$project->target_beneficiaries}}</span>
+                                    </li>
+                                    <li>Funded By <span> <i class="fa fa-wallet"></i> {{$project->funded_by}}</span>
+                                    </li>
+                                    <li>
+                                        Location <span> <i class="fas fa-map-marker-alt"></i>
+                                            {{$project->location}}</span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    {{ Str::words($project->description, 20, '...') }}
+                                </p>
+                                <a class="btn btn-theme effect btn-sm"
+                                    href="{{ route('projects-details',[$project])}}">Learn more <i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </center>
+
                     </div>
                     @empty
                     <center>
@@ -308,8 +314,8 @@
                 @forelse ($projects as $project)
                 <div class="col-md-6 col-sm-6 equal-height">
                     <div class="item">
-                        <div class="thumb">
-                            <img src="assets/assets/img/pics/ADFINR/IMG-20240702-WA0075.jpg" alt="Thumb">
+                        <div class="thumb" style="object-fit: cover; height: 400px;">
+                            <img src="{{ asset('storage/' . $project->placeholder_image) }}" alt="Thumb">
                         </div>
                         <div class="info">
                             <h4>{{$project->heading}}</h4>
@@ -329,7 +335,7 @@
                                 {{ Str::words($project->description, 20, '...') }}
                             </p>
                             <a class="btn btn-theme effect btn-sm" href="{{ route('projects-details',[$project])}}">
-                                Learn more 
+                                Learn more
                                 <i class="fas fa-angle-right"></i>
                             </a>
                         </div>

@@ -1,10 +1,9 @@
 @extends('layouts.home')
 
 @section('content')
-
 <!-- Start Braedcrumb ============================================= -->
 <div class="text-center bg-fixed shadow breadcrumb-area dark padding-xl text-light"
-    style="background-image: url({{$project->placeholder_image }});">
+style="background-image: url('{{ asset('storage/' . $project->placeholder_image) }}');">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-left">
@@ -27,16 +26,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 carousel">
-                <div class="pf-thum-carousel owl-carousel owl-thumb">
+                <div class="pf-thum-carousel owl-carousel owl-thumb pf-thum-carousel-project">
                     @php
                     $imageUrls = json_decode($project->images, true);
                     @endphp
                     @foreach ($imageUrls as $img)
-                    <img src="{{$img}}" alt="Thumb">
+                    <img src="{{ asset('storage/' . $img) }}" alt="Thumb" class="carousel-img-project">
                     @endforeach
-
                 </div>
-            </div>
+            </div>            
             <div class="col-md-12 conetnt">
                 <ul>
                     <li>Duration <span> <i class="fas fa-calendar-alt"></i> {{$project->starting_date}} -
@@ -66,6 +64,12 @@
                                 <a href="{{$project->facebook_link}}"><i class="fab fa-facebook-f"></i></a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col col-md-12">
+                           <button class="btn btn-primary" onclick="window.location.href='{{ route('projects')}}'">
+                            <<< Back To projects</button> 
+                        </div>
                     </div>
                 </div>
             </div>

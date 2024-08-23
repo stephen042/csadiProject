@@ -28,19 +28,19 @@ new class extends Component {
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
                         <li>
-                            <a href="/">Home</a>
+                            <a href="{{route('home')}}">Home</a>
                         </li>
                         <li>
-                            <a href="about" >About</a>
+                            <a href="{{route('about')}}" >About</a>
                         </li>
                         <li>
-                            <a href="contact" >Contact Us</a>
+                            <a href="{{route('contact')}}" >Contact Us</a>
                         </li>
                         <li>
-                            <a href="projects">Projects</a>
+                            <a href="{{route('projects')}}">Projects</a>
                         </li>
                         <li>
-                            <a href="gallery" >Gallery</a>
+                            <a href="{{route('gallery')}}" >Gallery</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->

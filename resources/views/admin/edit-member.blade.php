@@ -2,11 +2,12 @@
 
 @section('content')
 <div class="m-3">
-  <button class="btn btn-primary" onclick="window.location.href='{{ route('dashboard')}}'">
+  <button class="btn btn-primary" onclick="history.back()">
     <i class="bi bi-house"></i>
     Back
   </button>
 </div>
+<hr>
 <x-message />
 <section class="section">
   <div class="row">

@@ -45,6 +45,39 @@
         .lkSocials {
             color: rgb(89, 185, 234);
         }
+
+        @media screen and (max-width: 700px) {
+            .project-view-image {
+                display: none !important;
+            }
+        }
+
+        /* CSS for carousel images */
+        .carousel-img-project {
+            max-width: 100%;
+            /* Ensure the image doesn't exceed the width of its container */
+            height: auto;
+            /* Maintain aspect ratio */
+            object-fit: contain;
+            /* Ensure the image covers the container without distortion */
+        }
+
+        /* Optional: Control the size of the carousel container */
+        .pf-thum-carousel-project {
+            width: 100%;
+            /* Adjust as needed */
+            overflow: hidden;
+            /* Hide overflow if images are too big */
+        }
+
+        .carousel-img-project {
+            width: 100%;
+            /* Adjust width as needed */
+            max-height: 500px;
+            /* Limit the height of images */
+            object-fit: contain;
+            /* Ensure image covers the area without distortion */
+        }
     </style>
     @livewireStyles
 </head>

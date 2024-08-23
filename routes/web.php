@@ -21,15 +21,15 @@ Route::get('/', function (Project $projects) {
 
 Route::view('/about', 'home/about', [
     'title' => 'About',
-] );
+] )->name('about');
 
 Route::view('/contact', 'home/contact', [
     'title' => 'Contact',
-] );
+] )->name('contact');
 
 Route::view('projects', 'home/projects', [
     'title' => 'Projects',
-] );
+] )->name('projects');
 
 Route::get('projects/{project}', function (Project $project) {
 
@@ -42,7 +42,7 @@ Route::get('projects/{project}', function (Project $project) {
 
 Route::view('/gallery', 'home/gallery', [
     'title' => 'Gallery',
-] );
+] )->name('gallery');
 
 // Auth routes
 Route::view('/login', 'auth/login', [
@@ -57,6 +57,16 @@ Route::prefix('admin')->group(function () {
         Route::get('/edit-member/{member}', [AdminController::class, 'members'])->name('edit_member');
         Route::post('/edit-member/{member}', [AdminController::class, 'members'])->name('post_edit_member');
         Route::delete('/members/{member}', [AdminController::class, 'deleteMember'])->name('delete_member');
+
+        Route::get('/create-member', [AdminController::class, 'createMember'])->name('create_member');
+        Route::post('/create-member', [AdminController::class, 'createMember'])->name('post_create_member');
+        Route::get('all-members', [AdminController::class, 'allMembers'])->name('all_members');
+
+        Route::get('/create-project', [AdminController::class, 'createProject'])->name('create_project');
+        Route::post('/create-project', [AdminController::class, 'createProject'])->name('post_create_project');
+        Route::get('/all-projects', [AdminController::class, 'allProjects'])->name('all_projects');
+        Route::get('/edit-project/{project}', [AdminController::class, 'editProject'])->name('edit_project');
+        Route::post('/edit-project/{project}', [AdminController::class, 'editProject'])->name('post_edit_project');
     });
 });
 

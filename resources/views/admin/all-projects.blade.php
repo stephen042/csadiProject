@@ -5,18 +5,11 @@
     <h1>Admin</h1>
     <nav>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/">All Projects</a></li>
             <li class="breadcrumb-item active">Dashboard</li>
         </ol>
     </nav>
 </div><!-- End Page Title -->
-<section class="section">
-    <div class="row">
-        <div class="col-lg-12">
-            <livewire:admin.memberstable :members="$members" />
-        </div>
-    </div>
-</section>
 <section>
     <div class="row">
         @foreach ($projects as $project)
@@ -32,9 +25,13 @@
                     <div class="meta">
                         <ul>
                             <li>
-                                </i><span class="text-primary">{{$project->starting_date}} - {{$project->ending_date}}  </span>
+                                </i><span class="text-primary">{{$project->starting_date}} -
+                                    {{$project->ending_date}}
+                                </span>
                             </li>
-                            <li>Target Beneficiaries <span class="text-primary"> - {{$project->target_beneficiaries}} </span>
+                            <li>Target Beneficiaries <span class="text-primary"> -
+                                    {{$project->target_beneficiaries}}
+                                </span>
                             </li>
                             <li>Funded By <span class="text-primary"> - {{$project->funded_by}}</span>
                             </li>
@@ -51,7 +48,9 @@
             </div><!-- End Card with an image on top -->
         </div>
         @endforeach
-
+    </div>
+    <div class="d-flex justify-content-center mt-4">
+        {{ $projects->links() }}
     </div>
 </section>
 @endsection

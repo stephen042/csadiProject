@@ -3,7 +3,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
         <li class="nav-item">
-            <a class="nav-link " href="/">
+            <a class="nav-link" href="{{route('dashboard')}}">
                 <i class="bi bi-grid"></i>
                 <span>Dashboard</span>
             </a>
@@ -15,12 +15,12 @@
             </a>
             <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                 <li>
-                    <a href="#">
+                    <a href="{{route('all_projects')}}">
                         <i class="bi bi-circle"></i><span>All Projects</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route('create_project')}}">
                         <i class="bi bi-circle"></i><span>Create New Project</span>
                     </a>
                 </li>
@@ -33,12 +33,12 @@
             </a>
             <ul id="team-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                 <li>
-                    <a href="#">
+                    <a href="{{route('all_members')}}">
                         <i class="bi bi-circle"></i><span>All Team Members</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route('create_member')}}">
                         <i class="bi bi-circle"></i><span>Create New Team Member</span>
                     </a>
                 </li>

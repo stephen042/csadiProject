@@ -15,9 +15,9 @@ return new class extends Migration
             $table->uuid('id')->unique();
             $table->foreignId('user_id')->constrained();
             $table->string('heading');
-            $table->string('facebook_link');
+            $table->string('facebook_link')->nullable();
             $table->string('starting_date');
-            $table->string('ending_date');
+            $table->string('ending_date')->nullable();
             $table->string('location');
             $table->string('placeholder_image');
             $table->string('funded_by');
