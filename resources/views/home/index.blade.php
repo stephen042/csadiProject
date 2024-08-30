@@ -482,22 +482,24 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#ac2">
-                                        How long should a business plan be?
+                                        GIFTS, INVITATIONS & HOSPITALITY
                                     </a>
                                 </h4>
                             </div>
                             <div id="ac2" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>
-                                        She wholly fat who window extent either formal. Removing welcomed civility or
-                                        hastened is. Justice elderly but perhaps expense six her are another passage.
-                                        Full her ten open fond walk not down.For request general express unknown are.
-                                    </p>
-                                    <p>
-                                        He in just mr door body held john down he. So journey greatly or garrets. Draw
-                                        door kept do so come on open mean. Estimating stimulated how reasonably
-                                        precaution diminution she simplicity sir but. Questions am sincerity zealously
-                                        concluded consisted or no gentleman it.
+                                        4.1​This policy does not prohibit normal and appropriate hospitality (given and received) to
+                                        or from Third Parties.
+            
+                                        4.2​You are prohibited from accepting a gift or giving a gift to a third party in the
+                                        following situations:
+            
+                                        (a) it is made with the intention of influencing a Third Party to obtain or retain business,
+                                        to gain a business advantage, or to reward the provision or retention of business or a
+                                        business advantage, or in explicit or implicit exchange for favours or benefits;
+                                        (b) it is given in your name and not in the name of the Company;
+                                        etc..
                                     </p>
                                 </div>
                             </div>
@@ -506,22 +508,20 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#ac3">
-                                        What goes into a business plan?
+                                        ​FACILITATION PAYMENTS & KICKBACKS
                                     </a>
                                 </h4>
                             </div>
                             <div id="ac3" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>
-                                        She wholly fat who window extent either formal. Removing welcomed civility or
-                                        hastened is. Justice elderly but perhaps expense six her are another passage.
-                                        Full her ten open fond walk not down.For request general express unknown are.
-                                    </p>
-                                    <p>
-                                        He in just mr door body held john down he. So journey greatly or garrets. Draw
-                                        door kept do so come on open mean. Estimating stimulated how reasonably
-                                        precaution diminution she simplicity sir but. Questions am sincerity zealously
-                                        concluded consisted or no gentleman it.
+                                        5.1​In many jurisdictions, making Facilitation Payments is illegal. We do not make, and will
+                                        not accept, Facilitation Payments or Kickbacks of any kind anywhere in the world.
+            
+                                        5.2​Where the facilitation payment is being extorted or you are being coerced to pay it and
+                                        your safety or liberty is under threat or you feel you have no alternative but to pay for
+                                        personal or family peace of mind, then pay the Facilitation Payment and report this to your
+                                        line manager as soon as possible.
                                     </p>
                                 </div>
                             </div>
@@ -530,22 +530,18 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#ac4">
-                                        Where do I start?
+                                        PROTECTION
                                     </a>
                                 </h4>
                             </div>
                             <div id="ac4" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>
-                                        She wholly fat who window extent either formal. Removing welcomed civility or
-                                        hastened is. Justice elderly but perhaps expense six her are another passage.
-                                        Full her ten open fond walk not down.For request general express unknown are.
-                                    </p>
-                                    <p>
-                                        He in just mr door body held john down he. So journey greatly or garrets. Draw
-                                        door kept do so come on open mean. Estimating stimulated how reasonably
-                                        precaution diminution she simplicity sir but. Questions am sincerity zealously
-                                        concluded consisted or no gentleman it.
+                                        7.1​Employees who refuse to take part in bribery or corruption, or report in good faith
+                                        under this policy their suspicion that an actual or potential bribery or other corruption
+                                        offence has taken place or may take place in the future will be protected from detrimental
+                                        treatment/retaliation. Detrimental treatment includes dismissal, disciplinary action,
+                                        threats or other unfavourable treatment connected with raising a concern.
                                     </p>
                                 </div>
                             </div>
