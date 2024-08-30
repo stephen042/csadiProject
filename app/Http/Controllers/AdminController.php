@@ -8,6 +8,7 @@ use App\Models\Project;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Hash;
 
 class AdminController extends Controller
 {
@@ -245,6 +246,37 @@ class AdminController extends Controller
                 'title' => 'Projects',
                 'projects' => $projects,
             ]);
+        }
+    }
+
+    public function profile(Request $request)
+    {
+        if ($request->method() == 'GET') {
+            
+            return view('admin.profile');
+        }
+
+        if ($request->isMethod('post')) {
+            // Validate the request
+            $request->validate([
+                'old_password' => 'required',
+                'password' => 'required|min:6|confirmed',
+            ]);
+    
+            // Check if the old password matches
+            if (!Hash::check($request->old_password, Auth::user()->password)) {
+                return back()->withErrors(['old_password' => 'The old password does not match our records.']);
+            }
+    
+            // Update the user's password
+            $user_id = Auth::user()->id;
+            $result = User::where("id","$user_id")->update([
+                'password' => Hash::make($request->password)
+            ]);
+            // $user->password = Hash::make($request->password);
+            // $user->save();
+    
+            return redirect()->back()->with('success', 'Password updated successfully!');
         }
     }
 }

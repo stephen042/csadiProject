@@ -448,7 +448,7 @@
                 </div>
             </div>
             <div class="text-center col-md-6 faq-items">
-                <h2>Our Policies</h2>
+                <h2> <span class="float-start">Our Policies </span> </h2>
                 <!-- Start Accordion -->
                 <div class="acd-items acd-arrow">
                     <div class="panel-group symb" id="accordion">
@@ -456,16 +456,18 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#ac1">
-                                        Do I need a business plan?
+                                        Anti-Bribery & Corruption (ABC) Policy
                                     </a>
                                 </h4>
                             </div>
                             <div id="ac1" class="panel-collapse collapse in">
                                 <div class="panel-body">
+                                    <h6 style="font-weight: bold"> POLICY STATEMENT</h6>
                                     <p>
-                                        She wholly fat who window extent either formal. Removing welcomed civility or
-                                        hastened is. Justice elderly but perhaps expense six her are another passage.
-                                        Full her ten open fond walk not down.For request general express unknown are.
+                                        1.1 - ​It is our policy to conduct all of our business in an honest and ethical manner. We
+                                        take a zero-tolerance approach to Bribery and Corruption and are committed to acting
+                                        professionally, fairly and with integrity in all our business dealings and relationships
+                                        wherever we operate and implementing and enforcing effective systems to counter bribery.
                                     </p>
                                     <p>
                                         He in just mr door body held john down he. So journey greatly or garrets. Draw
@@ -551,6 +553,13 @@
                     </div>
                 </div>
                 <!-- End Accordion -->
+                <a 
+                    href="{{route('policies')}}"
+                    class="btn btn-theme effect btn-sm"
+                    style="margin: 8px 0px; float:right;"
+                >
+                    View All Policies ..
+                </a>
             </div>
         </div>
     </div>

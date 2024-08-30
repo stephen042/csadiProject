@@ -33,6 +33,10 @@ Route::view('projects', 'home/projects', [
     'title' => 'Projects',
 ] )->name('projects');
 
+Route::view('policies', 'home/policies', [
+    'title' => 'policies',
+] )->name('policies');
+
 Route::get('projects/{project}', function (Project $project) {
 
     return view('home.projects-details', [
@@ -69,6 +73,9 @@ Route::prefix('admin')->group(function () {
         Route::get('/all-projects', [AdminController::class, 'allProjects'])->name('all_projects');
         Route::get('/edit-project/{project}', [AdminController::class, 'editProject'])->name('edit_project');
         Route::post('/edit-project/{project}', [AdminController::class, 'editProject'])->name('post_edit_project');
+
+        Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
+        Route::post('/profile', [AdminController::class, 'profile'])->name('post_profile');
     });
 });
 

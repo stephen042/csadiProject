@@ -3,7 +3,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
         <li class="nav-item">
-            <a class="nav-link" href="{{route('dashboard')}}">
+            <a class="nav-link {{ request()->routeIs('dashboard') ? '' : 'collapsed' }}" href="{{route('dashboard')}}">
                 <i class="bi bi-grid"></i>
                 <span>Dashboard</span>
             </a>
@@ -46,11 +46,16 @@
         </li><!-- End Components Nav -->
         <hr>
         <li class="nav-item">
-            <div class="nav-link">
+            <a class="nav-link {{ request()->routeIs('profile') ? '' : 'collapsed' }}" href="{{ route('profile') }}">
+                <i class="bi bi-grid"></i>
+                <span>Profile</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+        <li class="nav-item">
+            <div class="nav-link collapsed">
                 {{-- sign out --}}
                 <livewire:admin.logout />
             </div>
-
         </li>
         <!-- End Dashboard Nav -->
 

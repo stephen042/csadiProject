@@ -28,6 +28,7 @@
                             <li><a href="contact">Contact</a></li>
                             <li><a href="gallery">Gallery</a></li>
                             <li><a href="projects">Projects</a></li>
+                            <li><a href="policies">Policies</a></li>
                         </ul>
                     </div>
                 </div>
