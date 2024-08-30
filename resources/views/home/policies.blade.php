@@ -27,6 +27,42 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <h4>View Policies</h4>
+                <ol>
+                    <li style="margin: 10px 10px">
+                        <a 
+                            href="{{URL('fwd/CSADI_code_of_conduct.pdf')}}" 
+                            class="btn btn-theme effect btn-sm p-0"
+                            target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                            CSADI code of conduct
+                        </a>
+                    </li>
+                    <hr style="border: 1px solid grey"> 
+                    <li style="margin: 10px 10px">
+                        <a 
+                            href="{{URL('fwd/CSADI-PSEA-POLICY.pdf')}}" 
+                            class="btn btn-theme effect btn-sm p-0"
+                            target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                            CSADI PSEA POLICY
+                        </a>
+                    </li>
+                    <hr style="border: 1px solid grey"> 
+                    <li style="margin: 10px 10px">
+                        <a 
+                            href="{{URL('fwd/whisle-blowing-policy.pdf')}}" 
+                            class="btn btn-theme effect btn-sm p-0"
+                            target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                            CSADI whisle blowing policy
+                        </a>
+                    </li>
+                </ol>
+                <br>
+                <hr style="border: 2px solid black"> 
+            </div>
+            <div class="col-12">
                 <h1>Anti-Bribery & Corruption (ABC) Policy</h1>
                 <hr style="border: 1px solid grey">
                 <ol>
