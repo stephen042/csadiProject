@@ -294,9 +294,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h2>Completed Projects</h2>
                     <p>
-                        Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own
-                        additions education satisfied the perpetual. If he cause manor happy. Without farther she
-                        exposed saw man led. Along on happy could cease green oh.
+                        We are proud to showcase the remarkable achievements of our completed projects, each one a testament to our commitment to making a difference. From expanding educational opportunities to enhancing community health, our projects have made a significant impact on the lives of those we serve. Through innovative solutions and collaborative efforts, we've seen tangible improvements in access to education, health services, and overall community well-being. Our dedicated team and volunteers have worked tirelessly to turn visions into reality, creating lasting change and inspiring hope. As we reflect on these successes, we remain motivated and excited for the future, continuing to drive progress and foster positive outcomes. Thank you to everyone who has supported and contributed to these transformative initiatives.
                     </p>
                 </div>
             </div>
