@@ -15,9 +15,9 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="content">
-                                        <h4 data-animation="animated slideInRight">Be a part of the world by make a
-                                            donation</h4>
-                                        <h1 data-animation="animated slideInLeft">Join with us and save the world</h1>
+                                        <h4 data-animation="animated slideInRight">Join Us in Making a Difference!</h4>
+                                        <h1 data-animation="animated slideInLeft">Transform Lives Through Health,
+                                            Education, and Livelihoods</h1>
                                         <a class="btn btn-light effect btn-sm" href="about"
                                             data-animation="animated slideInUp">Learn more</a>
                                         <a class="btn btn-theme effect btn-sm" href="#"
@@ -38,9 +38,9 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="content" data-animation="animated slideInRight">
-                                        <h4 data-animation="animated slideInRight">Be a part of the world by make a
-                                            donation</h4>
-                                        <h1 data-animation="animated slideInLeft">Help us to save the Homeless People
+                                        <h4 data-animation="animated slideInRight">Join Us in Making a Difference!</h4>
+                                        <h1 data-animation="animated slideInLeft">Champion the Rights and Potential of
+                                            Women and Children
                                         </h1>
                                         <a class="btn btn-light effect btn-sm" href="about"
                                             data-animation="animated slideInUp">Learn more</a>
@@ -62,9 +62,10 @@
                             <div class="row">
                                 <div class="col-md-8">
                                     <div class="content" data-animation="animated slideInRight">
-                                        <h4 data-animation="animated slideInRight">For the poor children</h4>
-                                        <h1 data-animation="animated slideInLeft">Give a helping hand and Help
-                                            unfortunates</h1>
+                                        <h4 data-animation="animated slideInRight">Join Us in Making a Difference!</h4>
+                                        <h1 data-animation="animated slideInLeft">
+                                            Enhance Livelihoods, Education, and Health for a Stronger Community
+                                        </h1>
                                         <a class="btn btn-light effect btn-sm" href="about"
                                             data-animation="animated slideInUp">Learn more</a>
                                         <a class="btn btn-theme effect btn-sm" href="#"
@@ -104,12 +105,11 @@
                             <img src="assets/assets/img/pics/CGPP/QYUI.jpg" alt="Thumb">
                         </div>
                         <div class="info">
-                            <h4>Food Donate</h4>
+                            <h4>Vaccination Awareness Campaign</h4>
                             <p>
-                                Great explorer of the truth, the master-builder of human happiness. No one rejects,
-                                dislikes, or avoids pleasure itself pleasure.
+                                Empower Your Community. Get Informed and Participate in Our Routine Immunization
+                                Campaign!
                             </p>
-                            <a href="#">Read More <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="service-item">
@@ -119,10 +119,9 @@
                         <div class="info">
                             <h4>Medical Care</h4>
                             <p>
-                                Great explorer of the truth, the master-builder of human happiness. No one rejects,
-                                dislikes, or avoids pleasure itself pleasure.
+                                Fostering a Healthy Community Through Balanced Nutrition with a Sustainable Nutritional
+                                Campaign
                             </p>
-                            <a href="#">Read More <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="service-item">
@@ -130,12 +129,11 @@
                             <img src="assets/assets/img/pics/SCI/PHOTO-2024-07-03-17-28-15.jpg" alt="Thumb">
                         </div>
                         <div class="info">
-                            <h4>Child Education</h4>
+                            <h4>Enrollment Drive</h4>
                             <p>
-                                Great explorer of the truth, the master-builder of human happiness. No one rejects,
-                                dislikes, or avoids pleasure itself pleasure.
+                                Enhancing Enrollment and Retention Through Community Engagement and Collaborative
+                                Stakeholder Action.
                             </p>
-                            <a href="#">Read More <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="service-item">
@@ -143,12 +141,11 @@
                             <img src="assets/assets/img/pics/CGPP/SJKLOK.jpg" alt="Thumb">
                         </div>
                         <div class="info">
-                            <h4>Homeless People</h4>
+                            <h4>Stakeholder Engagement</h4>
                             <p>
-                                Great explorer of the truth, the master-builder of human happiness. No one rejects,
-                                dislikes, or avoids pleasure itself pleasure.
+                                Fostering Change Through Stakeholder Engagement and Collective Action in Children's
+                                Education and Community Development
                             </p>
-                            <a href="#">Read More <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div class="service-item">
@@ -156,12 +153,11 @@
                             <img src="assets/assets/img/pics/SCI/PHOTO-2024-07-03-23-29-36.jpg" alt="Thumb">
                         </div>
                         <div class="info">
-                            <h4>Street child</h4>
+                            <h4>Boosting Out-of-School Enrollment</h4>
                             <p>
-                                Great explorer of the truth, the master-builder of human happiness. No one rejects,
-                                dislikes, or avoids pleasure itself pleasure.
+                                Ensuring Every Child Access to Education Through Ongoing Community Support and
+                                Ownership.
                             </p>
-                            <a href="#">Read More <i class="fas fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -177,21 +173,22 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 info">
-                <h2>How Can You Help?</h2>
-                <h5>Your support will help us to make life better living for poor vulnerable children.</h5>
+                <h2>Building Stronger Communities Through Health and Education</h2>
                 <p>
-                    Performed suspicion in certainty so frankness by attention pretended. Newspaper or in tolerably
-                    education enjoyment. Extremity excellent certainty discourse sincerity no he so resembled. Joy house
-                    worse arise total boy but. Elderly up chicken do at feeling is. Like seen drew no make fond at on
-                    rent. Behaviour extremely her explained situation yet september gentleman are who. Is thought or
-                    pointed hearing he.
+                    Fostering community health and education is essential for building resilient and thriving societies.
+                    By prioritizing health and education, we lay the foundation for sustainable development and
+                    well-being. Community health initiatives, such as vaccination drives and nutrition programs, are
+                    crucial in preventing disease and promoting overall wellness. These efforts ensure that individuals,
+                    especially children, have the opportunity to grow up healthy and productive.
+
+                    In parallel, enhancing educational access and quality equips individuals with the skills and
+                    knowledge needed to succeed. Engaging local communities in educational activities fosters a
+                    supportive environment where learning is valued and encouraged. By combining these efforts, we
+                    create a holistic approach to community development, where health and education go hand in hand.
+                    Collaborative actions and sustained support from all community members are key to achieving
+                    long-lasting impact and improving the quality of life for everyone.
                 </p>
-                <p>
-                    Do however as pleased offence outward beloved by present. By outward neither he so covered amiable
-                    greater. Juvenile proposal betrayed he an informed weddings followed. Precaution day see imprudence
-                    sympathize principles. At full leaf give quit to in they up.
-                </p>
-                <a href="#" class="btn btn-theme effect btn-sm">Donate Now</a>
+                {{-- <a href="/about" class="btn btn-theme effect btn-sm">Learn More</a> --}}
             </div>
             <div class="col-md-7 items">
                 <div class="row">
@@ -216,12 +213,7 @@
                                 <img src="assets/assets/img/pics/ANRIN/BHD.jpg" alt="Thumb">
                             </div>
                             <div class="info">
-                                <h4>Donate Us</h4>
-                                <p>
-                                    Their saved linen downs tears son add music. Expression alteration entreaties mrs
-                                    can terminated estimating
-                                </p>
-                                <a href="#">Donate Now</a>
+                                <a href="/about" class="btn btn-theme effect btn-sm">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -464,10 +456,14 @@
                                 <div class="panel-body">
                                     <h6 style="font-weight: bold"> POLICY STATEMENT</h6>
                                     <p>
-                                        1.1 - ​It is our policy to conduct all of our business in an honest and ethical manner. We
-                                        take a zero-tolerance approach to Bribery and Corruption and are committed to acting
-                                        professionally, fairly and with integrity in all our business dealings and relationships
-                                        wherever we operate and implementing and enforcing effective systems to counter bribery.
+                                        1.1 - ​It is our policy to conduct all of our business in an honest and ethical
+                                        manner. We
+                                        take a zero-tolerance approach to Bribery and Corruption and are committed to
+                                        acting
+                                        professionally, fairly and with integrity in all our business dealings and
+                                        relationships
+                                        wherever we operate and implementing and enforcing effective systems to counter
+                                        bribery.
                                     </p>
                                     <p>
                                         He in just mr door body held john down he. So journey greatly or garrets. Draw
@@ -489,14 +485,18 @@
                             <div id="ac2" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>
-                                        4.1​This policy does not prohibit normal and appropriate hospitality (given and received) to
+                                        4.1​This policy does not prohibit normal and appropriate hospitality (given and
+                                        received) to
                                         or from Third Parties.
-            
-                                        4.2​You are prohibited from accepting a gift or giving a gift to a third party in the
+
+                                        4.2​You are prohibited from accepting a gift or giving a gift to a third party
+                                        in the
                                         following situations:
-            
-                                        (a) it is made with the intention of influencing a Third Party to obtain or retain business,
-                                        to gain a business advantage, or to reward the provision or retention of business or a
+
+                                        (a) it is made with the intention of influencing a Third Party to obtain or
+                                        retain business,
+                                        to gain a business advantage, or to reward the provision or retention of
+                                        business or a
                                         business advantage, or in explicit or implicit exchange for favours or benefits;
                                         (b) it is given in your name and not in the name of the Company;
                                         etc..
@@ -515,12 +515,17 @@
                             <div id="ac3" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>
-                                        5.1​In many jurisdictions, making Facilitation Payments is illegal. We do not make, and will
-                                        not accept, Facilitation Payments or Kickbacks of any kind anywhere in the world.
-            
-                                        5.2​Where the facilitation payment is being extorted or you are being coerced to pay it and
-                                        your safety or liberty is under threat or you feel you have no alternative but to pay for
-                                        personal or family peace of mind, then pay the Facilitation Payment and report this to your
+                                        5.1​In many jurisdictions, making Facilitation Payments is illegal. We do not
+                                        make, and will
+                                        not accept, Facilitation Payments or Kickbacks of any kind anywhere in the
+                                        world.
+
+                                        5.2​Where the facilitation payment is being extorted or you are being coerced to
+                                        pay it and
+                                        your safety or liberty is under threat or you feel you have no alternative but
+                                        to pay for
+                                        personal or family peace of mind, then pay the Facilitation Payment and report
+                                        this to your
                                         line manager as soon as possible.
                                     </p>
                                 </div>
@@ -537,10 +542,14 @@
                             <div id="ac4" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>
-                                        7.1​Employees who refuse to take part in bribery or corruption, or report in good faith
-                                        under this policy their suspicion that an actual or potential bribery or other corruption
-                                        offence has taken place or may take place in the future will be protected from detrimental
-                                        treatment/retaliation. Detrimental treatment includes dismissal, disciplinary action,
+                                        7.1​Employees who refuse to take part in bribery or corruption, or report in
+                                        good faith
+                                        under this policy their suspicion that an actual or potential bribery or other
+                                        corruption
+                                        offence has taken place or may take place in the future will be protected from
+                                        detrimental
+                                        treatment/retaliation. Detrimental treatment includes dismissal, disciplinary
+                                        action,
                                         threats or other unfavourable treatment connected with raising a concern.
                                     </p>
                                 </div>
@@ -549,11 +558,8 @@
                     </div>
                 </div>
                 <!-- End Accordion -->
-                <a 
-                    href="{{route('policies')}}"
-                    class="btn btn-theme effect btn-sm"
-                    style="margin: 8px 0px; float:right;"
-                >
+                <a href="{{route('policies')}}" class="btn btn-theme effect btn-sm"
+                    style="margin: 8px 0px; float:right;">
                     View All Policies ..
                 </a>
             </div>
@@ -571,9 +577,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h2>Meet our Team</h2>
                     <p>
-                        Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own
-                        additions education satisfied the perpetual. If he cause manor happy. Without farther she
-                        exposed saw man led. Along on happy could cease green oh.
+                        Our dedicated volunteers and team members are the driving force behind our mission. Their unwavering commitment, passion, and expertise fuel our efforts to create meaningful change in the community. Our volunteers bring diverse skills and perspectives, working tirelessly to support our programs and initiatives. Together, our team collaborates to address challenges, implement solutions, and make a tangible impact on the lives of those we serve. We value their hard work, creativity, and dedication, which are essential to our success.
                     </p>
                 </div>
             </div>

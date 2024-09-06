@@ -22,6 +22,7 @@ Route::get('/', function (Project $projects) {
 })->name('home');
 
 Route::view('/about', 'home/about', [
+    'members' => Member::all(),
     'title' => 'About',
 ] )->name('about');
 
